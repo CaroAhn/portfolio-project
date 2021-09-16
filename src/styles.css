@@ -1,0 +1,30 @@
+:root {
+  --primary-color: ;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin: 0px;
+  line-height: 50px;
+}
+
+.index-information {
+  margin: 30px;
+}
+
+.btn-contact {
+  display: block;
+  text-align: center;
+  margin: 70px;
+}
+.about-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: pink;
+  color: black;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
