@@ -4,7 +4,9 @@
 
 h1,
 h2,
-h3 {
+h3,
+h4,
+h5 {
   text-align: center;
   margin: 0px;
   line-height: 50px;
@@ -27,4 +29,11 @@ h3 {
   background: pink;
   color: black;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.email-link {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  display: block;
 }
