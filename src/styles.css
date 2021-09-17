@@ -2,6 +2,7 @@
   --backround-color: #e0ebe8;
   --primary-color: #459e87;
   --font-text: "Poppins", sans-serif;
+  --box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
 }
 
 body {
@@ -14,14 +15,27 @@ h5 {
   line-height: 50px;
 }
 
+h4 {
+  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
+}
+
 h2 {
-  font-size: 45px;
+  font-size: 40px;
 }
 
 p {
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
+}
+
+img {
+  background: var(--backround-color);
+  box-shadow: var(--box-shadow);
+  border-radius: 20px;
+  max-width: 100%;
+  height: auto;
 }
 
 .hero {
@@ -63,4 +77,15 @@ p {
   text-decoration: none;
   color: black;
   display: block;
+}
+
+.project-description {
+  padding: 130px 60px;
+}
+
+@media (max-width: 960px) {
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
 }
