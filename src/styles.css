@@ -2,8 +2,11 @@
   --backround-color: #e0ebe8;
   --primary-color: #459e87;
   --font-text: "Poppins", sans-serif;
-  --box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+  --box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  --font-body: font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
+
 
 body {
   font-family: var(--font-text);
@@ -16,8 +19,7 @@ h5 {
 }
 
 h4 {
-  font-family: "Poppins", sans-serif;
-  font-family: "Raleway", sans-serif;
+  font-family: var(--font-body);
 }
 
 h2 {
@@ -38,10 +40,16 @@ img {
   height: auto;
 }
 
+h5 {
+  color: var(--primary-color);
+  font-size: 33px;
+  margin: 20px 0 0;
+}
+
 .hero {
   text-align: center;
   background: var(--backround-color);
-  padding: 100px 20px;
+  padding: 90px 20px;
 }
 
 .hero h2 {
@@ -72,12 +80,7 @@ img {
   padding: 18px 30px;
 }
 
-.email-link {
-  text-align: center;
-  text-decoration: none;
-  color: black;
-  display: block;
-}
+
 
 .project-description {
   padding: 130px 60px;
@@ -96,4 +99,31 @@ img {
     padding: 0;
     text-align: center;
   }
+}
+
+.contact-box {
+  background: var(--backround-color);
+  padding: 10px;
+  margin: 70px 30px;
+  border-radius: 10px;
+}
+
+.button-about-me {
+  background: var(--primary-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 10px 20px;
+  margin: 20px 20px;
+  text-decoration: none;
+}
+
+.email-link   {
+  font-family: var(--font-text);
+  text-decoration: none;
+  color: black;
+  display: block;
+  font-size: 35px;
+  text-align: center;
 }
