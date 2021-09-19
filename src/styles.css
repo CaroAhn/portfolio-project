@@ -7,7 +7,6 @@
   font-family: "Raleway", sans-serif;
 }
 
-
 body {
   font-family: var(--font-text);
 }
@@ -70,6 +69,15 @@ h5 {
   font-size: 24px;
 }
 
+.about-introduction h2 {
+  font-size: 40px;
+}
+
+.about-introduction p{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 .button-link {
   background: var(--primary-color);
   border-radius: 4px;
@@ -78,8 +86,6 @@ h5 {
   line-height: 27px;
   padding: 18px 30px;
 }
-
-
 
 .project-description {
   padding: 130px 60px;
@@ -146,4 +152,25 @@ h5 {
   color: var(--primary-color);
   text-decoration: none;
   font-weight: bolder;
+}
+
+.about-heading {
+  font-size: 70px;
+  color: var(--primary-color);
+  text-align: center;
+  margin-top: 30px;
+  font-family: var(--font-body);
+}
+
+.about-description {
+  padding: 130px 60px;
+}
+
+.about-button {
+  background: var(--primary-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 15px;
+  line-height: 25px;
+  padding: 18px 30px;  
 }
