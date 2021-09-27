@@ -80,6 +80,11 @@ h5 {
   line-height: 35px;
 }
 
+.projects-work p {
+  font-family: var(--font-body);
+  
+}
+
 .button-link {
   background: var(--primary-color);
   border-radius: 4px;
@@ -92,6 +97,8 @@ h5 {
 .project-description {
   padding: 130px 60px;
 }
+
+
 
 @media (max-width: 960px) {
   .hero h1 {
@@ -194,3 +201,7 @@ h5 {
   padding: 18px 30px;  
 }
 
+.text-heading-work {
+  font-size: 30px;
+  font-family: var(--font-text);
+}
