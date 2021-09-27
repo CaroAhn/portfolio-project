@@ -212,5 +212,12 @@ h5 {
   background: none;
   box-shadow: none;
   border-radius: none;
-  
+}
+
+.email-contact {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
 }
