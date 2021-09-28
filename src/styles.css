@@ -181,7 +181,7 @@ h5 {
   justify-content: center;
   text-decoration: none;
   color: black;
-  font-size: 24px;
+  font-size: 26px;
 }
 
 .social-media-link a {
@@ -196,4 +196,9 @@ font-size: 35px;
   padding: 17px 20px;
   margin: 20px 25px;
   border-radius: 20px;
+}
+
+.heading-contact {
+  color: var(--primary-color);
+  font-size: 35px;
 }
